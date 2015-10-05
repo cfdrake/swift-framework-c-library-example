@@ -1,5 +1,5 @@
 # Swift Progress Bar Framework
-[Bridging Headers](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html) are the recommended way of including C, C++, and Objective-C code in your Swift projects. However, the compiler does not allow you do this for Frameworks targets, which is a problem if you wish to create a Framework that wraps a C library.
+[Bridging Headers](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html) are the recommended way of including C, C++, and Objective-C code in your Swift projects. However, the compiler does not allow you do this for Framework targets, which is a problem if you wish to create a Framework that wraps a C library.
 
 This repository is an example of how to create a Swift framework that is able to call out to a C library without using Bridging Headers.
 
