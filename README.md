@@ -14,7 +14,7 @@ Each `Progressbar` instance responds to two methods: `increment` and `finish`. `
 The Xcode project contains an Xcode Playground demonstrating usage of the module. You should see a progress bar animating over the course of 30 seconds once you open this file. If you don't see it, press **⌘-Shift-Y** to ensure that the Console window is showing.
 
 ## Setup
-<TODO>
+**TODO**
 
 ## Dependencies/Thanks
 [progressbar](https://github.com/doches/progressbar) is the C library that is wrapped in this example project. The source is included with this git repository. Thanks to the [original author](https://github.com/doches) for providing a simple library to wrap!
