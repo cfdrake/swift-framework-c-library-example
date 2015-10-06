@@ -15,6 +15,9 @@ The Xcode project contains an Xcode Playground demonstrating usage of the module
 
 ## Setup
 **TODO**
+- import c library
+- create module map
+- add in to search in xcode project
 
 ## Dependencies/Thanks
 [progressbar](https://github.com/doches/progressbar) is the C library that is wrapped in this example project. The source is included with this git repository. Thanks to the [original author](https://github.com/doches) for providing a simple library to wrap!

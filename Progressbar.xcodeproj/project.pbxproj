@@ -24,8 +24,8 @@
 		F31DDD021BC2F0ED005FA253 /* statusbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statusbar.h; path = Dependencies/progressbar/include/statusbar.h; sourceTree = "<group>"; };
 		F31DDD051BC2F0F4005FA253 /* progressbar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = progressbar.c; path = Dependencies/progressbar/lib/progressbar.c; sourceTree = "<group>"; };
 		F31DDD061BC2F0F4005FA253 /* statusbar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = statusbar.c; path = Dependencies/progressbar/lib/statusbar.c; sourceTree = "<group>"; };
-		F31DDD091BC2F1CD005FA253 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = Dependencies/progressbar/lib/module.map; sourceTree = "<group>"; };
 		F31DDD0C1BC2F446005FA253 /* Progressbar-Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Progressbar-Example.playground"; path = "Example/Progressbar-Example.playground"; sourceTree = "<group>"; };
+		F32F2F6C1BC35F5E000156EA /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		F31DDCFD1BC2EFC6005FA253 /* progressbar */ = {
 			isa = PBXGroup;
 			children = (
-				F31DDD091BC2F1CD005FA253 /* module.map */,
+				F32F2F6C1BC35F5E000156EA /* module.map */,
 				F31DDD011BC2F0ED005FA253 /* progressbar.h */,
 				F31DDD021BC2F0ED005FA253 /* statusbar.h */,
 				F31DDD051BC2F0F4005FA253 /* progressbar.c */,
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.colindrake.Progressbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar/Dependencies/progressbar/lib/**";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -316,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.colindrake.Progressbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar/Dependencies/progressbar/lib/**";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar";
 			};
 			name = Release;
 		};
@@ -339,6 +339,7 @@
 				F31DDCFB1BC2EFBA005FA253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

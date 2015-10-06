@@ -1,0 +1,4 @@
+module Libprogressbar [system] {
+  header "Dependencies/progressbar/include/progressbar.h"
+  export *
+}
