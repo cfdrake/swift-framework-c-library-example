@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F31DDCF51BC2EFBA005FA253 /* Progressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DDCF41BC2EFBA005FA253 /* Progressbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F31DDD001BC2EFD9005FA253 /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31DDCFF1BC2EFD9005FA253 /* Progressbar.swift */; settings = {ASSET_TAGS = (); }; };
-		F31DDD031BC2F0ED005FA253 /* progressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DDD011BC2F0ED005FA253 /* progressbar.h */; settings = {ASSET_TAGS = (); }; };
-		F31DDD041BC2F0ED005FA253 /* statusbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DDD021BC2F0ED005FA253 /* statusbar.h */; settings = {ASSET_TAGS = (); }; };
-		F31DDD071BC2F0F4005FA253 /* progressbar.c in Sources */ = {isa = PBXBuildFile; fileRef = F31DDD051BC2F0F4005FA253 /* progressbar.c */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
-		F31DDD081BC2F0F4005FA253 /* statusbar.c in Sources */ = {isa = PBXBuildFile; fileRef = F31DDD061BC2F0F4005FA253 /* statusbar.c */; settings = {ASSET_TAGS = (); COMPILER_FLAGS = "-w"; }; };
+		F31DDD001BC2EFD9005FA253 /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31DDCFF1BC2EFD9005FA253 /* Progressbar.swift */; };
+		F31DDD031BC2F0ED005FA253 /* progressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DDD011BC2F0ED005FA253 /* progressbar.h */; };
+		F31DDD041BC2F0ED005FA253 /* statusbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F31DDD021BC2F0ED005FA253 /* statusbar.h */; };
+		F31DDD071BC2F0F4005FA253 /* progressbar.c in Sources */ = {isa = PBXBuildFile; fileRef = F31DDD051BC2F0F4005FA253 /* progressbar.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F31DDD081BC2F0F4005FA253 /* statusbar.c in Sources */ = {isa = PBXBuildFile; fileRef = F31DDD061BC2F0F4005FA253 /* statusbar.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +149,7 @@
 				TargetAttributes = {
 					F31DDCF01BC2EFBA005FA253 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -296,6 +297,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -317,6 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Progressbar";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

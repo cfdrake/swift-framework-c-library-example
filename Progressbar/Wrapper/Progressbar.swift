@@ -14,7 +14,7 @@ public final class Progressbar {
     let bar: UnsafeMutablePointer<progressbar>
     
     public init(text: String, max: UInt) {
-        let unsafePointer = (text as NSString).UTF8String
+        let unsafePointer = (text as NSString).utf8String
         bar = Libprogressbar.progressbar_new(unsafePointer, max)
     }
     
