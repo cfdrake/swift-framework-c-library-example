@@ -1,5 +1,5 @@
 # Swift Progress Bar Framework
-This is the code example from my blog article: [Wrapping a C Library in a Swift Framework](http://colindrake.me/2015/10/05/wrapping-a-c-library-in-a-swift-framework/). To see the creation of this project from the beginning to end, feel free to read the post!
+This is the code example from my blog article: [Wrapping a C Library in a Swift Framework](https://colindrake.me/post/wrapping-a-c-library-in-a-swift-framework/). To see the creation of this project from the beginning to end, feel free to read the post!
 
 If you like this, feel free to check out [my site](http://colindrake.me)!
 
